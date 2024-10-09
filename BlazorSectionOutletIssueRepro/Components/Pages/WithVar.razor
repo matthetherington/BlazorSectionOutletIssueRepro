@@ -1,0 +1,15 @@
+﻿@page "/"
+@using Microsoft.AspNetCore.Components.Sections
+
+@{
+    var foo = "bar";
+}
+
+<CascadingValue Value="@(1)">
+    <button @onclick="@(() => Task.CompletedTask)">Click</button>
+    @foo
+</CascadingValue>
+
+<SectionContent SectionName="test">
+    <TestComponent OnClick="@(() => Task.CompletedTask)" />
+</SectionContent>

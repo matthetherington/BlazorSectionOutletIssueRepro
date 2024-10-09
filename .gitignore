@@ -1,0 +1,59 @@
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+nupkg/
+node_modules/
+src/ACEP.EMDI.Web/Properties/launchSettings.json
+
+# Azurite
+__queuestorage__/
+__blobstorage__/
+__azurite_db_blob__.json
+__azurite_db_blob_extent__.json
+__azurite_db_queue__.json
+__azurite_db_queue_extent__.json
+__azurite_db_table__.json
+
+# Visual Studio Code
+.vscode
+
+# Rider
+.idea
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio 2015
+.vs/
+src/ACEP.EMDI.Web/FodyWeavers.xsd
+
+# uiTests
+uiTests/package-lock.json
+uiTests/.env
+uiTests/pumpkin
+uiTests/results
+uiTests/node_modules
+uiTests/screenshots
+*.coverage
+uiTests/browserStack.sh
